@@ -9,8 +9,8 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <maven.compiler.source>15</maven.compiler.source>
-        <maven.compiler.target>15</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <springboot.version>2.6.5</springboot.version>
         <junit.version>5.8.2</junit.version>
         <log.version>1.7.36</log.version>
@@ -20,6 +20,7 @@
         <thin.version>1.0.28.RELEASE</thin.version>
         <jacoco.version>0.8.6</jacoco.version>
         <lombok.version>1.18.22</lombok.version>
+        <javafx.version>11</javafx.version>
         <alibaba.cloud.version>2021.0.1.0</alibaba.cloud.version>
         <spring.cloud.version>2021.0.1</spring.cloud.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -55,6 +56,18 @@
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
                 <version>${lombok.version}</version>
+            </dependency>
+
+            <!-- javafx -->
+            <dependency>
+                <groupId>org.openjfx</groupId>
+                <artifactId>javafx-controls</artifactId>
+                <version>${javafx.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.openjfx</groupId>
+                <artifactId>javafx-web</artifactId>
+                <version>${javafx.version}</version>
             </dependency>
 
             <!-- 动态 class -->
