@@ -21,6 +21,7 @@
         <jacoco.version>0.8.6</jacoco.version>
         <lombok.version>1.18.22</lombok.version>
         <javafx.version>11</javafx.version>
+        <apache.commons.version>3.12.0</apache.commons.version>
         <alibaba.cloud.version>2021.0.1.0</alibaba.cloud.version>
         <spring.cloud.version>2021.0.1</spring.cloud.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -57,6 +58,16 @@
                 <artifactId>lombok</artifactId>
                 <version>${lombok.version}</version>
             </dependency>
+
+            <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${apache.commons.version}</version>
+            </dependency>
+
+
+
 
             <!-- javafx -->
             <dependency>
